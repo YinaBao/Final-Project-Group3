@@ -1,5 +1,5 @@
 # Final-Project-Group3
-THE STREET VIEW HOUSE NUMBERS (SVHN) DATASET PROJECT
+## THE STREET VIEW HOUSE NUMBERS (SVHN) DATASET PROJECT
 
 In this project, we used street view house numbers dataset to explore how computer recognizes digits numbers from images. For this real-world image dataset, we engage in can be applied in image recognition and classification from image to digits which is an important topic in machine learning field. This real-world street view house number image dataset is different than the other dataset because it has over 600,000-digit images and the numbers are in the natural scene images. SVHN is obtained from house numbers in Google Street View images. By giving pixel value vectors as features, we are leveraging ten classification models to predict the label of images. In this project, we aimed at applying various machine learning including deep learning techniques in order to do the image classification. The models respectively are Multilayer Perceptron Networks (MLP), Convolutional Neural Network (CNN) on PyTorch and 1 Convolutional Neural Network on Caffe. Though these different models, we can also find out how these algorithms compare to each other and how can we improve our model.
 
