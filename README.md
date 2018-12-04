@@ -13,10 +13,10 @@ Set DISPLAY=localhost:10.0
 Connect to GPU
 
 ### Steps
-*Before running the code, please make sure Please run ‘MLP.py’ first. This file include the step of downloading the data. The dataset will save in the ‘./data_svhn’ folder under the same directory. 
+- Before running the code, please make sure Please run ‘MLP.py’ first. This file include the step of downloading the data. The dataset will save in the ‘./data_svhn’ folder under the same directory. 
 
-*‘CNN4.py’ is the code of our best performance model (model 4) ‘CNN4_extra.py’ is the code of the best performance model by using extra dataset, which can reach 94% accuracy.
+- ‘CNN4.py’ is the code of our best performance model (model 4) ‘CNN4_extra.py’ is the code of the best performance model by using extra dataset, which can reach 94% accuracy.
 
-*We also transfer one of our experimental model to Caffe data frame. For Running the code, please set the PYTHONPTAH=/home/ubuntu/caffe/python, DISPLAY=localhost:10.0 and change the interperter to Python 2.7 and connected to GPU Run ‘caffe_covert_lmdb.py’ file first to convert the data to lmdb format for Caffe. Run ‘mlcnn_sol.py’ to get the result. (In order to run this code, make sure ‘mlcnn_train_test.prototxt’ and ‘mlcnn_solver.prototxt’ at the same directory)
+- We also transfer one of our experimental model to Caffe data frame. For Running the code, please set the PYTHONPTAH=/home/ubuntu/caffe/python, DISPLAY=localhost:10.0 and change the interperter to Python 2.7 and connected to GPU Run ‘caffe_covert_lmdb.py’ file first to convert the data to lmdb format for Caffe. Run ‘mlcnn_sol.py’ to get the result. (In order to run this code, make sure ‘mlcnn_train_test.prototxt’ and ‘mlcnn_solver.prototxt’ at the same directory)
 
 The code we used to convert the data to lmdb format is cited from the website below:
